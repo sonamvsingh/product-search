@@ -62,8 +62,6 @@ function App() {
   // Handler callback for search button.
   const handleSearchProducts = (searchParam) => {
     setQuery(searchParam);
-    // Invoke products with new query param.
-    getProductsFromApi();
   }
 
   // Show loader till we fetch intial products to display.
